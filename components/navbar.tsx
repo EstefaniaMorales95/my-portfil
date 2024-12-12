@@ -21,7 +21,25 @@ const Navbar = () => {
   return (
     <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
       <nav>
-        <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-black/30 background-blur-sm">
+        <div className="mt-4 flex gap-4">
+          {/* Botón para cambiar de idioma */}
+          <button 
+            onClick={toggleLanguage} 
+            className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe border-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
+          >
+            {i18n.language === 'en' ? 'Español' : 'English'}
+          </button>
+
+          {/* Botón para descargar el CV */}
+          <a 
+            href="/estefacv.pdf"  // Asegúrate de colocar la ruta correcta del archivo en 'public'
+            download
+           className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe border-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
+          >
+            {i18n.language === 'en' ? 'Download CV' : 'Descargar CV'}
+          </a>
+        </div>
+        <div className="flex items-center justify-center gap-0 px-0 py-0 rounded-full bg-black/10 background-blur-sm mt-4">
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
@@ -30,16 +48,6 @@ const Navbar = () => {
               <Link href={item.link}>{item.icon}</Link>
             </div>
           ))}
-        </div>
-
-        {/* Botón para cambiar de idioma */}
-        <div className="mt-4">
-          <button 
-            onClick={toggleLanguage} 
-            className="px-3 py-2 bg-blue-500 text-white rounded-full"
-          >
-            {i18n.language === 'en' ? 'Español' : 'English'}
-          </button>
         </div>
       </nav>
     </MotionTransition>

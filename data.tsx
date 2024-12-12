@@ -162,8 +162,8 @@ export const dataPortfolio = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: "",
+        text: "",
         lineRight: true,
         lineRightMobile: true,
     },

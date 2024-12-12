@@ -15,12 +15,12 @@ const Header = () => {
         </span>
           </h1>
          </Link>
-         <div className="flex items-center justify-center gap-7">
+         <div className="flex items-center justify-center gap-7 text-lg">
           {socialNetworks.map(({logo, src, id}) => (
             <Link 
              key={id}
             href={src}
-            className="transition-all duration-300 text-Coffe hover:text-creem"
+            className="transition-all duration-300 text-Coffe hover:text-creem text-lg"
             target="_blank"
             >
               {logo}
