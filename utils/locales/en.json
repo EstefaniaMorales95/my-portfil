@@ -1,0 +1,149 @@
+{
+  "intro": {
+    "title": "Building is work,",
+    "subTitle": "innovating is the essence.",
+    "contactMe": "Contact Me",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "description": "As a full-stack developer, I have the ability to connect the UI design with the engine that drives the functionality, creating smooth and powerful experiences."
+  },
+  "portfolio": {
+    "github": "Github",
+    "liveDemo": "Live demo"
+  },
+  "aboutMe": {
+    "title": "All my ",
+    "subtitle": " professional journey",
+    "counterServices": "Services Counter",
+    "timeline": "Timeline"
+  },
+  
+    "portfolioPage": {
+      "title": "My Projects",
+      "projects": "Projects"
+    },
+
+  "servicesPage": {
+    "title": "✨ My Services. ✨",
+    "description": "As a full-stack developer, I specialize in creating complete digital solutions, combining design and technology to deliver exceptional results. I use modern tools like React, HTML, CSS, and JavaScript to build attractive, functional, and highly responsive applications. Additionally, my experience in backend ensures that each project is robust, scalable, and efficient, providing you with a seamless experience from design to implementation. \n\n👉 Your vision, my commitment. Together, we can transform your ideas into digital projects that stand out and connect with your audience. Let's talk and get started today! 🚀",
+    "contactMe": "Contact Me",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "timeline": {
+    "desarrolloFullStack": {
+      "title": "Full-stack Development",
+      "description": "I am a full-stack professional capable of working across all layers of a web application, from the user interface to data handling on the server.",
+      "date": "August 2024"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "description": "Specialized in creating the user interface of a web application or website, ensuring it is attractive, functional, and easy to use.",
+      "date": "November 2024"
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "I handle the logic, database, and server performance to ensure that an application works correctly behind the scenes.",
+      "date": "January 2024"
+    },
+    "integracionDevOps": {
+      "title": "Integration and DevOps",
+      "description": "These are key areas that combine software development (Dev) with IT operations (Ops) to accelerate development cycles, improve software quality, and ensure efficient deployment.",
+      "date": "August 2024"
+    }
+  },
+  "counter": {
+    "mesesExperiencia": {
+      "text": "Months of experience"
+    },
+    "proyectosFinalizados": {
+      "text": "Completed projects"
+    }
+  },
+  "socialNetworks": {
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "github": "GitHub"
+  },
+  "itemsNavbar": {
+    "home": "Home",
+    "user": "User",
+    "book": "Book",
+    "target": "Target"
+  },
+  "dataAboutPage": {
+    "fullstack": {
+      "title": "Full-stack Development",
+      "description": "I am a versatile professional capable of working on all layers of a web application, from the user interface to server-side data handling.",
+      "date": "August 2024"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "description": "Specialized in creating the user interface of a web application or site, ensuring it is attractive, functional, and easy to use.",
+      "date": "November 2024"
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Managing logic, database, and server performance to ensure an application functions correctly behind the scenes.",
+      "date": "January 2024"
+    },
+    "devops": {
+      "title": "Integration and DevOps",
+      "description": "These are key areas that combine software development (Dev) with IT operations (Ops) to speed up development cycles, improve software quality, and ensure efficient deployment.",
+      "date": "August 2024"
+    }
+  },
+  "dataCounter": {
+    "experience": "Months of experience",
+    "projects": "Completed projects"
+  },
+  "services": {
+    "service1": {
+      "title": "Web Development",
+      "description": "We build custom web applications for your business."
+    },
+    "service2": {
+      "title": "Mobile Development",
+      "description": "We develop high-quality mobile applications."
+    },
+    "service3": {
+      "title": "Consulting",
+      "description": "We offer consultancy to improve your tech infrastructure."
+    }
+  },
+  "dataPortfolio": {
+    "pokedex": "Pokedex",
+    "rickAndMortyApp": "Rick and Morty App",
+    "weatherApp": "Weather Application",
+    "usersCrud": "Users Crud"
+  },
+  "dataTestimonials": {
+    "georgeSnow": {
+      "name": "George Snow",
+      "description": "Incredible platform! The testimonials here are genuine and have helped me make informed decisions. Highly recommended!"
+    },
+    "juanPerez": {
+      "name": "Juan Pérez",
+      "description": "I love the variety of testimonials available on this page. It's inspiring to see how others have overcome similar challenges. Thanks for this invaluable source of motivation!"
+    },
+    "mariaGarcia": {
+      "name": "María García",
+      "description": "Excellent resource to get authentic opinions about different products and services. It has helped me a lot in my online shopping. Bravo for this site!"
+    },
+    "lauraSnow": {
+      "name": "Laura Snow",
+      "description": "What a fantastic discovery! The testimonials here are honest and detailed. I feel more confident in making decisions after reading experiences shared by others."
+    },
+    "carlosSanchez": {
+      "name": "Carlos Sánchez",
+      "description": "A gem on the web. Testimonials are easy to find and well-organized. Definitely my go-to destination when I need reliable references!"
+    },
+    "antonioMartinez": {
+      "name": "Antonio Martínez",
+      "description": "Fantastic resource for those seeking validation before making important decisions! The testimonials here are truthful and truly helpful. Thanks for simplifying my decision-making process!"
+    }
+  }
+}
+    
+  

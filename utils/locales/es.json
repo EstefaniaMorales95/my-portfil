@@ -1,0 +1,126 @@
+{
+  "intro": {
+    "title": "Construir es el trabajo,",
+    "subTitle": "innovar es la esencia.",
+    "contactMe": "Contáctame",
+    "whatsapp": "WhatsApp",
+    "email": "Correo",
+    "description": "Como programadora full-stack, tengo la capacidad de conectar el diseño de la interfaz con el motor que impulsa la funcionalidad, creando experiencias fluidas y poderosas."
+  },
+  "portfolio": {
+    "github": "Github",
+    "liveDemo": "Demostración en vivo"
+  },
+  "aboutMe": { 
+    "title": "Toda mi ",
+    "subtitle": "trayectoria profesional",
+    "counterServices": "Contador de servicios",
+    "timeline": "Línea de tiempo"
+  },
+ "portfolioPage": {
+    "title": "Mis Proyectos",
+    "projects": "Proyectos"
+  },
+  "servicesPage": {
+    "title": "✨ Mis Servicios. ✨",
+    "description": "Como desarrolladora full-stack, me especializo en crear soluciones digitales completas, uniendo diseño y tecnología para ofrecer resultados excepcionales. Utilizo herramientas modernas como React, HTML, CSS y JavaScript para construir aplicaciones atractivas, funcionales y altamente responsivas. Además, mi experiencia en backend asegura que cada proyecto sea robusto, escalable y eficiente, brindándote una experiencia perfecta desde el diseño hasta la implementación. \n\n👉 Tu visión, mi compromiso. Juntos podemos transformar tus ideas en proyectos digitales que destaquen y conecten con tu audiencia. ¡Hablemos y comencemos hoy! 🚀",
+    "contactMe": "Contáctame",
+    "whatsapp": "WhatsApp",
+    "email": "Correo"
+  },
+  "socialNetworks": {
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "email": "Correo",
+    "github": "GitHub"
+  },
+  "itemsNavbar": {
+    "home": "Inicio",
+    "user": "Usuario",
+    "book": "Libro",
+    "target": "Objetivo"
+  },
+  "timeline": {
+    "desarrolloFullStack": {
+      "title": "Desarrollo Full-stack",
+      "description": "Soy una profesional integral capaz de trabajar en todas las capas de una aplicación web, desde la interfaz de usuario hasta el manejo de datos en el servidor.",
+      "date": "Agosto 2024"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "description": "Especializada en crear la interfaz de usuario de una aplicación o sitio web, asegurándome de que sea atractiva, funcional y fácil de usar.",
+      "date": "Noviembre 2024"
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Manejo la lógica, la base de datos y el rendimiento del servidor para asegurar que una aplicación funcione correctamente detrás de escena.",
+      "date": "Enero 2024"
+    },
+    "integracionDevOps": {
+      "title": "Integración y DevOps",
+      "description": "Estas son áreas claves que combinan el desarrollo de software (Dev) con las operaciones de TI (Ops) para acelerar los ciclos de desarrollo, mejorar la calidad del software y garantizar un despliegue eficiente.",
+      "date": "Agosto 2024"
+    }
+  },
+  
+  "dataCounter": {
+    "experience": "Meses de experiencia",
+    "projects": "Proyectos finalizados"
+  },
+  "counter": {
+    "mesesExperiencia": {
+      "text": "Meses de experiencia"
+    },
+    "proyectosFinalizados": {
+      "text": "Proyectos finalizados"
+    }
+  },
+  "services": {
+    "service1": {
+      "title": "Desarrollo Web",
+      "description": "Creamos aplicaciones web personalizadas para tu negocio."
+    },
+    "service2": {
+      "title": "Desarrollo Móvil",
+      "description": "Desarrollamos aplicaciones móviles de alta calidad."
+    },
+    "service3": {
+      "title": "Consultoría",
+      "description": "Ofrecemos asesoría para mejorar tu infraestructura tecnológica."
+    }
+  },
+  "dataPortfolio": {
+    "pokedex": "Pokedex",
+    "rickAndMortyApp": "Aplicación Rick and Morty",
+    "weatherApp": "Aplicación del clima",
+    "usersCrud": "Users Crud"
+  },
+  "dataTestimonials": {
+    "georgeSnow": {
+      "name": "George Snow",
+      "description": "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!"
+    },
+    "juanPerez": {
+      "name": "Juan Pérez",
+      "description": "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!"
+    },
+    "mariaGarcia": {
+      "name": "María García",
+      "description": "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!"
+    },
+    "lauraSnow": {
+      "name": "Laura Snow",
+      "description": "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios."
+    },
+    "carlosSanchez": {
+      "name": "Carlos Sánchez",
+      "description": "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!"
+    },
+    "antonioMartinez": {
+      "name": "Antonio Martínez",
+      "description": "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!"
+    }
+  }
+  
+
+}
