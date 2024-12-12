@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
+
 
 export const socialNetworks = [
     

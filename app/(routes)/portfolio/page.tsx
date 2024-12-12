@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import CircleImage from "@/components/circle-image";
 import ContainerPage from "@/components/container";
 import TransitionPage from "@/components/ TransitionPage";
-import AvatarPortfolio from "@/components/avatar-porfolio";
 import PortfolioBox from "@/components/porfolio-box";
 import { dataPortfolio } from "@/data";
 

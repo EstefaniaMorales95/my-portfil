@@ -2,12 +2,8 @@
 
 import { useState } from "react";
 import { useTranslation } from "react-i18next"; // Importa el hook
-import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
-
-import AvatarServices from "@/components/avatar-services";
 import AvatarPortfolio from "@/components/avatar-porfolio";
-import TransitionPage from "@/components/ TransitionPage";
 
 
 const ServicesPage = () => {
