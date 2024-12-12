@@ -1,6 +1,6 @@
 "use client"
 import TransitionPage from "@/components/ TransitionPage";
-import Avatar from "@/components/avatar";
+
 import AvatarPortfolio from "@/components/avatar-porfolio";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
