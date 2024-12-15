@@ -8,7 +8,7 @@ import { useDarkMode } from '@/contexts/darkModeContext'; // Asegúrate de impor
 
 const Introduction = () => {
   const { t } = useTranslation();
-  const { darkMode, toggleDarkMode } = useDarkMode(); // Obtener el estado y la función para alternar el modo oscuro
+  const { darkMode } = useDarkMode(); // Obtener el estado y la función para alternar el modo oscuro
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
