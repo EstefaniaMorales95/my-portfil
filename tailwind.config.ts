@@ -10,7 +10,6 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				secondary: 'f5741c',
 				darkBg: '131424',
 				customBeige: '#d8a48f',
 				White: '#f2e9e4',

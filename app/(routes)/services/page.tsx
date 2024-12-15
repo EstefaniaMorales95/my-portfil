@@ -4,8 +4,6 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next"; // Importa el hook
 import SliderServices from "@/components/slider-services";
 import AvatarPortfolio from "@/components/avatar-porfolio";
-
-
 const ServicesPage = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const { t } = useTranslation();  // Usa el hook para obtener las traducciones
@@ -66,3 +64,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+

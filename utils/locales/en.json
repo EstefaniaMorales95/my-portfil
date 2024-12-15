@@ -24,7 +24,7 @@
     },
 
   "servicesPage": {
-    "title": "✨ My Services. ✨",
+    
     "description": "As a full-stack developer, I specialize in creating complete digital solutions, combining design and technology to deliver exceptional results. I use modern tools like React, HTML, CSS, and JavaScript to build attractive, functional, and highly responsive applications. Additionally, my experience in backend ensures that each project is robust, scalable, and efficient, providing you with a seamless experience from design to implementation. \n\n👉 Your vision, my commitment. Together, we can transform your ideas into digital projects that stand out and connect with your audience. Let's talk and get started today! 🚀",
     "contactMe": "Contact Me",
     "whatsapp": "WhatsApp",
@@ -98,20 +98,24 @@
     "experience": "Months of experience",
     "projects": "Completed projects"
   },
-  "services": {
+ "services": {
     "service1": {
-      "title": "Web Development",
-      "description": "We build custom web applications for your business."
+      "title": "Critical Thinking",
+      "description": "The ability to analyze situations from different perspectives and make informed decisions."
     },
     "service2": {
-      "title": "Mobile Development",
-      "description": "We develop high-quality mobile applications."
+      "title": "Creativity",
+      "description": "Being able to propose innovative solutions that enhance user experience or code efficiency."
     },
     "service3": {
-      "title": "Consulting",
-      "description": "We offer consultancy to improve your tech infrastructure."
+      "title": "Empathy",
+      "description": "Understanding the needs of users and the concerns of the team, and being able to collaborate harmoniously."
+    },
+    "service4": {
+      "title": "Adaptability",
+      "description": "The ability to learn and adapt to new technologies and frameworks quickly."
     }
-  },
+},
   "dataPortfolio": {
     "pokedex": "Pokedex",
     "rickAndMortyApp": "Rick and Morty App",

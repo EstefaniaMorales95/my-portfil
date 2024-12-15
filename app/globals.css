@@ -6,6 +6,17 @@ body {
 	color: #1b1a1a;
 	background: #f5ebe0;
 }
+body.dark-mode {
+	background-color: #121212;
+	color: #ffffff;
+}
+.navbar {
+	background-color: #f0f0f0;
+}
+
+body.dark-mode .navbar {
+	background-color: #333333;
+}
 main {
 	background: #f5ebe0;
 	height: 100vh;
@@ -15,4 +26,21 @@ main {
 	.text-balance {
 		text-wrap: balance;
 	}
+}
+/* globals.css */
+.btn-shared {
+	padding: 0.5rem 1rem;
+	transition: all 0.3s ease;
+	border: 2px solid #e6b8a2;
+	color: #b07d62;
+	text-align: center;
+	border-radius: 0.75rem;
+	text-decoration: none;
+	background: transparent;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.btn-shared:hover {
+	box-shadow: 0 4px 10px #e6b8a2;
 }

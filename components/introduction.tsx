@@ -1,12 +1,15 @@
-"use client";
+'use client';
 import { useTranslation } from 'react-i18next';
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
+import { useDarkMode } from '@/contexts/darkModeContext'; // Asegúrate de importar el contexto
 
 const Introduction = () => {
-  const { t } = useTranslation(); // Obtiene la función t para la traducción
+  const { t } = useTranslation();
+  const { darkMode, toggleDarkMode } = useDarkMode(); // Obtener el estado y la función para alternar el modo oscuro
+
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -14,7 +17,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className="z-20 w-full bg-darkBg/60">
+    <div className={`z-20 w-full ${darkMode ? 'dark' : ''} bg-Gradient-cover`}> {/* Fondo con gradiente no se ve afectado por el modo oscuro */}
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
         <Image
           src="/estefamr.png"
@@ -25,8 +28,10 @@ const Introduction = () => {
           className="rounded-md border-4 border-white shadow-lg"
         />
         <div className="flex flex-col justify-center max-w-md">
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-Coffe">
-            {t('intro.title')}{" "}
+          <h1
+            className={`mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 ${darkMode ? 'text-White' : 'text-Coffe'}`} // Color de texto para modo oscuro y claro
+          >
+            {t('intro.title')}{' '}
             <TypeAnimation
               sequence={[t('intro.subTitle'), 1000]}
               wrapper="span"
@@ -35,13 +40,13 @@ const Introduction = () => {
               className="font-bold text-creem"
             />
           </h1>
-      
+
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             {/* Botón Contáctame con menú desplegable */}
             <div className="relative">
               <button
-                onClick={toggleDropdown}
-                className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe border-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
+                onClick={toggleDarkMode} // Cambia el modo oscuro
+                className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
               >
                 {t('intro.contactMe')}
               </button>
@@ -63,9 +68,10 @@ const Introduction = () => {
                 </div>
               )}
             </div>
-            
           </div>
-          <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-creem">
+          <p
+            className={`mx-auto mb-2 text-xl md:mx-0 md:mb-8 ${darkMode ? 'text-White' : 'text-Coffe'}`} // Cambia el color del texto en modo oscuro
+          >
             {t('intro.description')}
           </p>
         </div>

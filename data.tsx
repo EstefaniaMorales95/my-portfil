@@ -41,25 +41,25 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="#000000" strokeWidth={1} />,
+        icon: <HomeIcon size={25} color="#e6b8a2" strokeWidth={1} />,
         link: "/",
     },
     {
         id: 2,
         title: "User",
-        icon: <UserRound size={25} color="#000000" strokeWidth={1} />,
+        icon: <UserRound size={25} color="#e6b8a2" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
         title: "Book",
-        icon: <BookText size={25} color="#000000" strokeWidth={1} />,
+        icon: <BookText size={25} color="#e6b8a2" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
         title: "Target",
-        icon: <CodeSquare size={25} color="#000000" strokeWidth={1} />,
+        icon: <CodeSquare size={25} color="#e6b8a2" strokeWidth={1} />,
         link: "/portfolio",
     },
 ];
@@ -70,7 +70,7 @@ export const dataAboutPage = [
         title: "Desarrollo Full-stack",
      
         description: "Soy una profesional integral capaz de trabajar en todas las capas de una aplicación web, desde la interfaz de usuario hasta el manejo de datos en el servidor.",
-        date: "Agosto 2024"
+        date: ""
        
       
     },
@@ -78,21 +78,21 @@ export const dataAboutPage = [
         id: 2,
         title: "Frontend ",
         description: "Especializada en crear la interfaz de usuario de una aplicación o sitio web, asegurándome de que sea atractiva, funcional y fácil de usar.",
-         date: "Novi 2024"
+         date: ""
        
     },
     {
         id: 3,
         title: "Backend  ",
         description: "Manejo la lógica, la base de datos y el rendimiento del servidor para asegurar que una aplicación funcione correctamente detrás de escena.",
-         date: "Enero 2024"
+         date: ""
        
     },
     {
         id: 4,
         title: "Integración y DevOps",
         description: " Estas son áreas claves que combinan el desarrollo de software (Dev) con las operaciones de TI (Ops) para acelerar los ciclos de desarrollo, mejorar la calidad del software y garantizar un despliegue eficiente ",
-        date: "Agosto 2024"
+        date: ""
     },
     
     
@@ -169,22 +169,22 @@ export const dataCounter = [
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: "",
+        text: "",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
+        endCounter: "",
+        text: "",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: "",
+        text: "",
         lineRight: false,
         lineRightMobile: false,
     },

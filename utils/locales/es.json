@@ -22,7 +22,7 @@
     "projects": "Proyectos"
   },
   "servicesPage": {
-    "title": "✨ Mis Servicios. ✨",
+    
     "description": "Como desarrolladora full-stack, me especializo en crear soluciones digitales completas, uniendo diseño y tecnología para ofrecer resultados excepcionales. Utilizo herramientas modernas como React, HTML, CSS y JavaScript para construir aplicaciones atractivas, funcionales y altamente responsivas. Además, mi experiencia en backend asegura que cada proyecto sea robusto, escalable y eficiente, brindándote una experiencia perfecta desde el diseño hasta la implementación. \n\n👉 Tu visión, mi compromiso. Juntos podemos transformar tus ideas en proyectos digitales que destaquen y conecten con tu audiencia. ¡Hablemos y comencemos hoy! 🚀",
     "contactMe": "Contáctame",
     "whatsapp": "WhatsApp",
@@ -77,16 +77,20 @@
   },
   "services": {
     "service1": {
-      "title": "Desarrollo Web",
-      "description": "Creamos aplicaciones web personalizadas para tu negocio."
+      "title": "Pensamiento Crítico",
+      "description": "Capacidad para analizar situaciones desde diferentes perspectivas y tomar decisiones informadas."
     },
     "service2": {
-      "title": "Desarrollo Móvil",
-      "description": "Desarrollamos aplicaciones móviles de alta calidad."
+      "title": "Creatividad",
+      "description": "Ser capaz de proponer soluciones innovadoras que mejoren la experiencia del usuario o la eficiencia del código."
     },
     "service3": {
-      "title": "Consultoría",
-      "description": "Ofrecemos asesoría para mejorar tu infraestructura tecnológica."
+      "title": "Empatía",
+      "description": "Entender las necesidades de los usuarios y las preocupaciones del equipo, y ser capaz de colaborar de manera armoniosa."
+    },
+    "service4": {
+      "title": "Adaptabilidad",
+      "description": "Capacidad para aprender y adaptarse a nuevas tecnologías y frameworks de manera rápida. "
     }
   },
   "dataPortfolio": {

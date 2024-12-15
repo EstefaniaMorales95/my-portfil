@@ -11,6 +11,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
 import "./globals.css";
+import { DarkModeProvider } from "@/contexts/darkModeContext";
 
 const urbanist = Urbanist({ subsets: ["latin"]});
 
@@ -28,9 +29,16 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={urbanist.className}>
+        
+          <DarkModeProvider>
           <Navbar />
           <Header />
-          {children}</body>
+          {children}
+
+          </DarkModeProvider>
+
+          
+          </body>
     </html>
   );
 }
