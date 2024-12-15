@@ -10,7 +10,7 @@ import { useDarkMode } from '@/contexts/darkModeContext';
 
 const PortfolioPage = () => {
     const { t } = useTranslation();
-    const { darkMode, toggleDarkMode } = useDarkMode();
+    const { darkMode } = useDarkMode();
 
     return (
       <div
@@ -19,13 +19,8 @@ const PortfolioPage = () => {
       }`} // Agrega una transición suave al cambio de fondo
     >
       <header className="navbar__h">
-        <h1 className="navbar">Portfolio</h1>
-        <button
-          onClick={toggleDarkMode}
-          style={{ padding: "0.5rem 1rem", cursor: "pointer" }}
-        >
-          {darkMode ? "☀️ Modo Claro" : "🌙 Modo Oscuro"}
-        </button>
+    
+    
       </header>
       <ContainerPage>
         <TransitionPage /> {/* Aquí la transición no afecta al fondo */}

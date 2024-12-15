@@ -45,7 +45,7 @@ const Introduction = () => {
             {/* Botón Contáctame con menú desplegable */}
             <div className="relative">
               <button
-                onClick={toggleDarkMode} // Cambia el modo oscuro
+                onClick={toggleDropdown} // Cambia el modo oscuro
                 className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
               >
                 {t('intro.contactMe')}
