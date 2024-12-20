@@ -2,17 +2,13 @@
 
 import { transitionVariantsPage } from "@/utils/motion-transitions";
 import { AnimatePresence, motion } from "framer-motion";
-import { useDarkMode } from "@/contexts/darkModeContext";
-const TransitionPage = () => {
-  const { darkMode } = useDarkMode(); // Obtén el estado del modo oscuro
 
+const TransitionPage = () => {
   return (
     <AnimatePresence mode="wait">
       <div>
         <motion.div
-          className={`fixed top-0 bottom-0 right-full w-screen z-30 ${
-            darkMode ? "bg-darkBg" : "bg-[#e3d5ca]"
-          }`} // Alternar colores según el estado de darkMode
+          className="fixed top-0 bottom-0 right-full w-screen z-30 bg-[#e3d5ca]" // Color fijo sin darkMode
           variants={transitionVariantsPage}
           initial="initial"
           animate="animate"

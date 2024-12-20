@@ -4,11 +4,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-import { useDarkMode } from '@/contexts/darkModeContext';
 
 const Introduction = () => {
   const { t } = useTranslation();
-  const { darkMode } = useDarkMode(); // Obtener el estado y la función para alternar el modo oscuro
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -17,7 +15,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className={`z-20 w-full ${darkMode ? 'dark' : ''} bg-Gradient-cover`}> {/* Fondo con gradiente no se ve afectado por el modo oscuro */}
+    <div className="z-20 w-full bg-Gradient-cover"> {/* Fondo con gradiente fijo */}
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
         <Image
           src="/estefamr.png"
@@ -28,9 +26,7 @@ const Introduction = () => {
           className="rounded-md border-4 border-white shadow-lg"
         />
         <div className="flex flex-col justify-center max-w-md">
-          <h1
-            className={`mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 ${darkMode ? 'text-White' : 'text-Coffe'}`} // Color de texto para modo oscuro y claro
-          >
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-Coffe">
             {t('intro.title')}{' '}
             <TypeAnimation
               sequence={[t('intro.subTitle'), 1000]}
@@ -69,9 +65,7 @@ const Introduction = () => {
               )}
             </div>
           </div>
-          <p
-            className={`mx-auto mb-2 text-xl md:mx-0 md:mb-8 ${darkMode ? 'text-White' : 'text-Coffe'}`} // Cambia el color del texto en modo oscuro
-          >
+          <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-Coffe">
             {t('intro.description')}
           </p>
         </div>

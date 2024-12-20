@@ -1,26 +1,20 @@
-"use client"
+"use client";
+
 import { useTranslation } from "react-i18next";
 import CircleImage from "@/components/circle-image";
 import ContainerPage from "@/components/container";
-import TransitionPage from "@/components/ TransitionPage";
+
 import PortfolioBox from "@/components/porfolio-box";
 import { dataPortfolio } from "@/data";
-import { useDarkMode } from "@/contexts/darkModeContext";
-
+import TransitionPage from "@/components/ TransitionPage";
 
 const PortfolioPage = () => {
-    const { t } = useTranslation();
-    const { darkMode } = useDarkMode();
+  const { t } = useTranslation();
 
-    return (
-      <div
-      className={`${
-        darkMode ? "bg-black transition-colors duration-500" : "transition-colors duration-500"
-      }`} // Agrega una transición suave al cambio de fondo
-    >
+  return (
+    <div className="transition-colors duration-500"> {/* Solo la transición de colores sin darkMode */}
       <header className="navbar__h">
-    
-    
+        {/* Aquí iría el contenido del header */}
       </header>
       <ContainerPage>
         <TransitionPage /> {/* Aquí la transición no afecta al fondo */}
@@ -42,7 +36,7 @@ const PortfolioPage = () => {
         </div>
       </ContainerPage>
     </div>
-    );
-}
+  );
+};
 
 export default PortfolioPage;

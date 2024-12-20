@@ -4,19 +4,16 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
-import Header from "@/components/header"
+import Header from "@/components/header";
 
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-import "./globals.css";
-import { DarkModeProvider } from "@/contexts/darkModeContext";
-
-const urbanist = Urbanist({ subsets: ["latin"]});
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My porfolio 👩🏽‍💻 ",
+  title: "My portfolio 👩🏽‍💻 ",
   description: "Landing page made by Emr ",
 };
 
@@ -27,18 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={urbanist.className}>
-        
-          <DarkModeProvider>
-          <Navbar />
-          <Header />
-          {children}
-
-          </DarkModeProvider>
-
-          
-          </body>
+      <body className={urbanist.className}>
+        <Navbar />
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

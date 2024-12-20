@@ -1,24 +1,18 @@
 "use client";
 
+import TransitionPage from "@/components/ TransitionPage";
 import AvatarPortfolio from "@/components/avatar-porfolio";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
 import { useTranslation } from "react-i18next";
-import { useDarkMode } from "@/contexts/darkModeContext";
 
-
-import TransitionPage from "@/components/ TransitionPage";
 
 const PageAboutMe = () => {
   const { t } = useTranslation();
-  const { darkMode } = useDarkMode (); // Obtén el estado del modo oscuro
-
-
 
   return (
-   
-<div className={`${darkMode ? "bg-black" : ""}`}> {/* Cambia el fondo solo en modo oscuro */}
+    <div> {/* Aquí no se usa darkMode, solo el contenido */}
       <TransitionPage />
       <ContainerPage>
         <AvatarPortfolio />
@@ -31,8 +25,6 @@ const PageAboutMe = () => {
       </ContainerPage>
     </div>
   );
-  
-  
 };
 
 export default PageAboutMe;
