@@ -12,7 +12,7 @@ import TransitionPage from "@/components/ TransitionPage";
 
 const PageAboutMe = () => {
   const { t } = useTranslation();
-  const { darkMode } = useDarkMode(); // Obtén el estado del modo oscuro
+  const { darkMode } = useDarkMode (); // Obtén el estado del modo oscuro
 
 
 

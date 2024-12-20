@@ -11,7 +11,7 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <FaLinkedin size={30} strokeWidth={1} />,
-        src: "https://www.linkedin.com/notifications/?filter=all",
+        src: "https://www.linkedin.com/in/estefania-morales-a5a399332/",
     },
 
     {

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-import { useDarkMode } from '@/contexts/darkModeContext'; // Asegúrate de importar el contexto
+import { useDarkMode } from '@/contexts/darkModeContext';
 
 const Introduction = () => {
   const { t } = useTranslation();

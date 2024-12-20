@@ -2,8 +2,7 @@
 
 import { transitionVariantsPage } from "@/utils/motion-transitions";
 import { AnimatePresence, motion } from "framer-motion";
-import { useDarkMode } from "@/contexts/darkModeContext"; 
-
+import { useDarkMode } from "@/contexts/darkModeContext";
 const TransitionPage = () => {
   const { darkMode } = useDarkMode(); // Obtén el estado del modo oscuro
 

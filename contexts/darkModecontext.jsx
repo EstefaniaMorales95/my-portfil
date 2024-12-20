@@ -1,8 +1,7 @@
 'use client';
 import React, { createContext, useState, useContext } from 'react';
 
-
-const DarkModeContext = createContext();
+const DarkModeContext = createContext(null);
 
 export const DarkModeProvider = ({ children }) => {
 	const [isDarkMode, setIsDarkMode] = useState(false);
