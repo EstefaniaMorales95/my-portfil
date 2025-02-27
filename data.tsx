@@ -146,14 +146,14 @@ export const dataPortfolio = [
     {
         id: 3,
         title: "Aplicación del clima",
-        image: "/weader.png",
+        image: "/public/weather.png",
         urlGithub: "https://github.com/EstefaniaMorales95/weather ",
         urlDemo: "https://weather-appem.netlify.app/",
     },
     {
         id: 4,
         title: "Users Crud",
-        image: "/usuarios.png",
+        image: "/public/users.png",
         urlGithub: "https://github.com/EstefaniaMorales95/Users-Crud",
         urlDemo: "https://users-crudemr.netlify.app/",
     },
