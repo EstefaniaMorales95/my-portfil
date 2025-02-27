@@ -15,7 +15,7 @@ const Introduction = () => {
   };
 
   return (
-    <div className="z-20 w-full bg-Gradient-cover"> {/* Fondo con gradiente fijo */}
+    <div className="z-20 w-full bg-Gradient-cover"> 
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
         <Image
           src="/estefamr.png"
@@ -28,20 +28,17 @@ const Introduction = () => {
         <div className="flex flex-col justify-center max-w-md">
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 text-Coffe">
             {t('intro.title')}{' '}
-            <TypeAnimation
-              sequence={[t('intro.subTitle'), 1000]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-              className="font-bold text-creem"
-            />
+            
+            <span className="font-bold text-creem">
+            {t('intro.subTitle')}
+            </span>
           </h1>
 
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-            {/* Botón Contáctame con menú desplegable */}
+           
             <div className="relative">
               <button
-                onClick={toggleDropdown} // Cambia el modo oscuro
+                onClick={toggleDropdown} 
                 className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
               >
                 {t('intro.contactMe')}

@@ -22,6 +22,7 @@
     "projects": "Proyectos"
   },
   "servicesPage": {
+    "title": "Lenguajes y Tecnologias de Programación",
     
     "description": "Como desarrolladora full-stack, me especializo en crear soluciones digitales completas, uniendo diseño y tecnología para ofrecer resultados excepcionales. Utilizo herramientas modernas como React, HTML, CSS y JavaScript para construir aplicaciones atractivas, funcionales y altamente responsivas. Además, mi experiencia en backend asegura que cada proyecto sea robusto, escalable y eficiente, brindándote una experiencia perfecta desde el diseño hasta la implementación. \n\n👉 Tu visión, mi compromiso. Juntos podemos transformar tus ideas en proyectos digitales que destaquen y conecten con tu audiencia. ¡Hablemos y comencemos hoy! 🚀",
     "contactMe": "Contáctame",
@@ -41,10 +42,15 @@
     "target": "Objetivo"
   },
   "timeline": {
+    "integracionDevOps": {
+      "title": "Servicios web de Amazon ",
+      "description": "Conocimientos en Amazon Web Services (AWS), incluyendo el diseño e implementación de aplicaciones escalables, seguras y optimizadas en la nube. Experiencia en EC2 para despliegue y administración de servidores, S3 para almacenamiento eficiente de archivos, y RDS para gestión de bases de datos relacionales. Familiaridad con CloudFront para optimización de entrega de contenido y mejora del rendimiento. Capacidad para integrar servicios en arquitecturas serverless y optimizar costos mediante buenas prácticas en la nube.",
+      "date": "Febrero 2025"
+    },
     "desarrolloFullStack": {
       "title": "Desarrollo Full-stack",
       "description": "Soy una profesional integral capaz de trabajar en todas las capas de una aplicación web, desde la interfaz de usuario hasta el manejo de datos en el servidor.",
-      "date": "Agosto 2024"
+      "date": "Febrero 2025"
     },
     "frontend": {
       "title": "Frontend",
@@ -55,12 +61,8 @@
       "title": "Backend",
       "description": "Manejo la lógica, la base de datos y el rendimiento del servidor para asegurar que una aplicación funcione correctamente detrás de escena.",
       "date": "Enero 2024"
-    },
-    "integracionDevOps": {
-      "title": "Integración y DevOps",
-      "description": "Estas son áreas claves que combinan el desarrollo de software (Dev) con las operaciones de TI (Ops) para acelerar los ciclos de desarrollo, mejorar la calidad del software y garantizar un despliegue eficiente.",
-      "date": "Agosto 2024"
     }
+ 
   },
   
   "dataCounter": {
@@ -77,20 +79,20 @@
   },
   "services": {
     "service1": {
-      "title": "Pensamiento Crítico",
-      "description": "Capacidad para analizar situaciones desde diferentes perspectivas y tomar decisiones informadas."
+      "title": "Java Script",
+      "description": ""
     },
     "service2": {
-      "title": "Creatividad",
-      "description": "Ser capaz de proponer soluciones innovadoras que mejoren la experiencia del usuario o la eficiencia del código."
+      "title": "Node.js",
+      "description": ""
     },
     "service3": {
-      "title": "Empatía",
-      "description": "Entender las necesidades de los usuarios y las preocupaciones del equipo, y ser capaz de colaborar de manera armoniosa."
+      "title": "React",
+      "description": ""
     },
     "service4": {
-      "title": "Adaptabilidad",
-      "description": "Capacidad para aprender y adaptarse a nuevas tecnologías y frameworks de manera rápida. "
+      "title": "CSS",
+      "description": " "
     }
   },
   "dataPortfolio": {

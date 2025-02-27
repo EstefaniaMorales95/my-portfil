@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslation } from "react-i18next"; // Importa el hook
+import { useTranslation } from "react-i18next"; 
 import SliderServices from "@/components/slider-services";
 import AvatarPortfolio from "@/components/avatar-porfolio";
 const ServicesPage = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    const { t } = useTranslation();  // Usa el hook para obtener las traducciones
+    const { t } = useTranslation();  
 
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
@@ -19,11 +19,11 @@ const ServicesPage = () => {
                 <div className="max-w-[450px]">
                     <br /><br />
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
-                        <span className="font-bold text-Coffe text-l"> {t('servicesPage.title')}</span> {/* Traducción del título */}
+                        <span className="font-bold text-Coffe text-l"> {t('servicesPage.title')}</span> 
                     </h1>
                     <br />
                     <p className="mb-3 text-sm text-gray-300">
-                        {t('servicesPage.description')} {/* Traducción de la descripción */}
+                        {t('servicesPage.description')} 
                     </p>
 
                     <div className="relative">
@@ -31,7 +31,7 @@ const ServicesPage = () => {
                             onClick={toggleDropdown}
                             className="px-3 py-2 transition-all border-2 cursor-pointer text-coffe border-coffe text-md w-fit rounded-xl hover:shadow-xl hover:shadow-creem no-underline text-customBeige"
                         >
-                            {t('servicesPage.contactMe')} {/* Traducción del botón */}
+                            {t('servicesPage.contactMe')}
                         </button>
 
                         {isDropdownOpen && (
@@ -41,13 +41,13 @@ const ServicesPage = () => {
                                     target="_blank"
                                     className="block px-4 py-2 text-sm text-Coffe hover:bg-gray-100 rounded-md line-none"
                                 >
-                                    {t('servicesPage.whatsapp')} {/* Traducción de WhatsApp */}
+                                    {t('servicesPage.whatsapp')} 
                                 </a>
                                 <a
                                     href="mailto:estefamorales1995@gmail.com"
                                     className="block px-4 py-2 text-sm text-Coffe hover:bg-gray-100 rounded-md"
                                 >
-                                    {t('servicesPage.email')} {/* Traducción de Email */}
+                                    {t('servicesPage.email')} 
                                 </a>
                             </div>
                         )}

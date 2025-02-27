@@ -1,8 +1,11 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaCss3, FaLinkedin, FaReact } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiNodejs } from "react-icons/di";
+import { LiaNode } from "react-icons/lia";
 
 
 export const socialNetworks = [
@@ -103,23 +106,23 @@ export const dataAboutPage = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
+        icon: <IoLogoJavascript />,
         title: "Pensamiento Crítico",
         description: "Capacidad para analizar situaciones desde diferentes perspectivas y tomar decisiones informadas.",
     },
     {
-        icon: <Pencil />,
+        icon: <LiaNode />,
         title: "Creatividad:",
         description: "Ser capaz de proponer soluciones innovadoras que mejoren la experiencia del usuario o la eficiencia del código.",
     },
     {
-        icon: <Computer />,
+        icon:  <FaReact />,
         title: "Empatía",
         description: "Entender las necesidades de los usuarios y las preocupaciones del equipo, y ser capaz de colaborar de manera armoniosa.",
     },
    
     {
-        icon: <Rocket />,
+        icon: <FaCss3 />,
         title: "Adaptabilidad:",
         description: "Capacidad para aprender y adaptarse a nuevas tecnologías y frameworks de manera rápida. ",
     },

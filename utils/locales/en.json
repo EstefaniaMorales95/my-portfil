@@ -24,6 +24,7 @@
     },
 
   "servicesPage": {
+    "title":"Programming Languages ​and Technologies",
     
     "description": "As a full-stack developer, I specialize in creating complete digital solutions, combining design and technology to deliver exceptional results. I use modern tools like React, HTML, CSS, and JavaScript to build attractive, functional, and highly responsive applications. Additionally, my experience in backend ensures that each project is robust, scalable, and efficient, providing you with a seamless experience from design to implementation. \n\n👉 Your vision, my commitment. Together, we can transform your ideas into digital projects that stand out and connect with your audience. Let's talk and get started today! 🚀",
     "contactMe": "Contact Me",
@@ -31,10 +32,15 @@
     "email": "Email"
   },
   "timeline": {
+    "integracionDevOps": {
+      "title": "Amazon Web Services",
+      "description": "Knowledge of Amazon Web Services (AWS), including the design and implementation of scalable, secure, and cloud-optimized applications. Experience with EC2 for server deployment and administration, S3 for efficient file storage, and RDS for relational database management. Familiarity with CloudFront for content delivery optimization and performance improvement. Ability to integrate services into serverless architectures and optimize costs through best cloud practices.",
+      "date": "February 2025"
+    },
     "desarrolloFullStack": {
       "title": "Full-stack Development",
       "description": "I am a full-stack professional capable of working across all layers of a web application, from the user interface to data handling on the server.",
-      "date": "August 2024"
+      "date": "February2025"
     },
     "frontend": {
       "title": "Frontend",
@@ -45,12 +51,8 @@
       "title": "Backend",
       "description": "I handle the logic, database, and server performance to ensure that an application works correctly behind the scenes.",
       "date": "January 2024"
-    },
-    "integracionDevOps": {
-      "title": "Integration and DevOps",
-      "description": "These are key areas that combine software development (Dev) with IT operations (Ops) to accelerate development cycles, improve software quality, and ensure efficient deployment.",
-      "date": "August 2024"
     }
+   
   },
   "counter": {
     "mesesExperiencia": {
@@ -100,20 +102,20 @@
   },
  "services": {
     "service1": {
-      "title": "Critical Thinking",
-      "description": "The ability to analyze situations from different perspectives and make informed decisions."
+      "title": "Java Script",
+      "description": ""
     },
     "service2": {
-      "title": "Creativity",
-      "description": "Being able to propose innovative solutions that enhance user experience or code efficiency."
+      "title": "Node.js",
+      "description": ""
     },
     "service3": {
-      "title": "Empathy",
-      "description": "Understanding the needs of users and the concerns of the team, and being able to collaborate harmoniously."
+     "title": "React",
+      "description": ""
     },
     "service4": {
-      "title": "Adaptability",
-      "description": "The ability to learn and adapt to new technologies and frameworks quickly."
+       "title": "CSS",
+      "description": " "
     }
 },
   "dataPortfolio": {

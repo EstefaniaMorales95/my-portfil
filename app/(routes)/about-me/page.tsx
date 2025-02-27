@@ -12,7 +12,7 @@ const PageAboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <div> {/* Aquí no se usa darkMode, solo el contenido */}
+    <div> 
       <TransitionPage />
       <ContainerPage>
         <AvatarPortfolio />

@@ -10,7 +10,7 @@ const AvatarPortfolio = () => {
                 src="/avatarpc.png" 
                 width="300" 
                 height="300" 
-                className="w-full h-full border-4 border-transparent dark:border-coffe" // Cambiar el borde en modo oscuro
+                className="w-full h-full border-4 border-transparent dark:border-coffe" 
                 alt="Particles"
             />
         </MotionTransition>

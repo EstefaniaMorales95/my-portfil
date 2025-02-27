@@ -10,12 +10,12 @@ import "../utils/i18n";
 
 const Navbar = () => {
   const router = usePathname();
-  const { i18n } = useTranslation(); // Hook para i18next
+  const { i18n } = useTranslation(); 
 
-  // Función para cambiar el idioma
+
   const toggleLanguage = () => {
     const newLang = i18n.language === "en" ? "es" : "en";
-    i18n.changeLanguage(newLang); // Cambia el idioma
+    i18n.changeLanguage(newLang); 
   };
 
   return (
@@ -25,13 +25,13 @@ const Navbar = () => {
     >
       <nav>
         <div className="mt-4 flex gap-4">
-          {/* Botón para cambiar de idioma */}
+ 
           <button onClick={toggleLanguage} className="btn-shared">
             {i18n.language === "en" ? "Español" : "English"}
           </button>
 
-          {/* Botón para descargar el CV */}
-          <a href="/estefacv.pdf" download className="btn-shared">
+        
+          <a href="/EstefaniaMoralesCVHuman.pdf" download className="btn-shared">
             {i18n.language === "en" ? "Download CV" : "Descargar CV"}
           </a>
         </div>

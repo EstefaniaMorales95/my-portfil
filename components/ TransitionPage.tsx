@@ -8,7 +8,7 @@ const TransitionPage = () => {
     <AnimatePresence mode="wait">
       <div>
         <motion.div
-          className="fixed top-0 bottom-0 right-full w-screen z-30 bg-[#e3d5ca]" // Color fijo sin darkMode
+          className="fixed top-0 bottom-0 right-full w-screen z-30 bg-[#e3d5ca]" 
           variants={transitionVariantsPage}
           initial="initial"
           animate="animate"
