@@ -44,22 +44,21 @@
   "timeline": {
     "integracionDevOps": {
       "title": "Servicios web de Amazon ",
-      "description": "Conocimientos en Amazon Web Services (AWS), incluyendo el diseño e implementación de aplicaciones escalables, seguras y optimizadas en la nube. Experiencia en EC2 para despliegue y administración de servidores, S3 para almacenamiento eficiente de archivos, y RDS para gestión de bases de datos relacionales. Familiaridad con CloudFront para optimización de entrega de contenido y mejora del rendimiento. Capacidad para integrar servicios en arquitecturas serverless y optimizar costos mediante buenas prácticas en la nube.",
+      "description": "Conocimientos en Amazon Web Services (AWS), incluyendo el diseño e implementación de aplicaciones escalables, seguras y optimizadas en la nube. Experiencia en EC2 para despliegue y administración de servidores, S3 para almacenamiento eficiente de archivos y RDS para la gestión de bases de datos relacionales. Familiaridad con CloudFront para optimización de la entrega de contenido y mejora del rendimiento. Capacidad para integrar servicios en arquitecturas serverless y optimizar costos mediante buenas prácticas en la nube.",
       "date": "Febrero 2025"
     },
     "desarrolloFullStack": {
       "title": "Desarrollo Full-stack",
-      "description": "Soy una profesional integral capaz de trabajar en todas las capas de una aplicación web, desde la interfaz de usuario hasta el manejo de datos en el servidor.",
+      "description": "Profesional integral capaz de trabajar en todas las capas de una aplicación web, desde la interfaz de usuario hasta la gestión de datos en el servidor.",
       "date": "Febrero 2025"
     },
     "frontend": {
       "title": "Frontend",
-      "description": "Especializada en crear la interfaz de usuario de una aplicación o sitio web, asegurándome de que sea atractiva, funcional y fácil de usar.",
-      "date": "Noviembre 2024"
+      "description": "Especializada en la creación de interfaces de usuario atractivas, funcionales y fáciles de usar, asegurando una experiencia intuitiva y accesible."
     },
     "backend": {
       "title": "Backend",
-      "description": "Manejo la lógica, la base de datos y el rendimiento del servidor para asegurar que una aplicación funcione correctamente detrás de escena.",
+      "description": "Manejo de lógica, bases de datos y rendimiento del servidor para garantizar el correcto funcionamiento de una aplicación detrás de escena.",
       "date": "Enero 2024"
     }
  

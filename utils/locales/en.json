@@ -26,7 +26,7 @@
   "servicesPage": {
     "title":"Programming Languages ​and Technologies",
     
-    "description": "As a full-stack developer, I specialize in creating complete digital solutions, combining design and technology to deliver exceptional results. I use modern tools like React, HTML, CSS, and JavaScript to build attractive, functional, and highly responsive applications. Additionally, my experience in backend ensures that each project is robust, scalable, and efficient, providing you with a seamless experience from design to implementation. \n\n👉 Your vision, my commitment. Together, we can transform your ideas into digital projects that stand out and connect with your audience. Let's talk and get started today! 🚀",
+    "description": "As a full-stack developer, I specialize in creating complete digital solutions by combining design and technology to deliver exceptional results. I leverage modern tools such as React, HTML, CSS, and JavaScript to build attractive, functional, and highly responsive applications.Additionally, my backend expertise ensures that each project is robust, scalable, and efficient, providing a seamless experience from design to implementation. 🚀👉 Your vision, my commitment. Together, we can transform your ideas into standout digital projects that truly connect with your audience. Let’s talk and get started today!",
     "contactMe": "Contact Me",
     "whatsapp": "WhatsApp",
     "email": "Email"
@@ -34,22 +34,21 @@
   "timeline": {
     "integracionDevOps": {
       "title": "Amazon Web Services",
-      "description": "Knowledge of Amazon Web Services (AWS), including the design and implementation of scalable, secure, and cloud-optimized applications. Experience with EC2 for server deployment and administration, S3 for efficient file storage, and RDS for relational database management. Familiarity with CloudFront for content delivery optimization and performance improvement. Ability to integrate services into serverless architectures and optimize costs through best cloud practices.",
+      "description": "Proficient in Amazon Web Services (AWS), including designing and implementing scalable, secure, and cloud-optimized applications. Experienced in EC2 for server deployment and management, S3 for efficient file storage, and RDS for relational database administration. Familiar with CloudFront for content delivery optimization and performance enhancement. Skilled in integrating services into serverless architectures and reducing costs through best cloud practices.",
       "date": "February 2025"
     },
     "desarrolloFullStack": {
       "title": "Full-stack Development",
-      "description": "I am a full-stack professional capable of working across all layers of a web application, from the user interface to data handling on the server.",
-      "date": "February2025"
+      "description": "I am a versatile full-stack developer with expertise in both frontend and backend technologies. I specialize in building efficient, user-friendly applications, from intuitive user interfaces to robust server-side logic and data management."
     },
     "frontend": {
       "title": "Frontend",
-      "description": "Specialized in creating the user interface of a web application or website, ensuring it is attractive, functional, and easy to use.",
+      "description": "Specialized in designing and developing engaging, intuitive, and user-friendly interfaces for web applications, ensuring an optimal user experience.",
       "date": "November 2024"
     },
     "backend": {
       "title": "Backend",
-      "description": "I handle the logic, database, and server performance to ensure that an application works correctly behind the scenes.",
+      "description": "Experienced in managing application logic, databases, and server performance to ensure seamless functionality and scalability.",
       "date": "January 2024"
     }
    
