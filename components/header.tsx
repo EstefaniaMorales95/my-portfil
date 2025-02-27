@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import MotionTransition from "./transition-components";
+import {MotionTransition }from "../components/transition-components";
 import { socialNetworks } from "@/data";
 
 const Header = () => {

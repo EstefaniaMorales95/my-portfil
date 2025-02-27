@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import MotionTransition from './transition-components';
+import {MotionTransition }from "../components/transition-components";
 
 const AvatarPortfolio = () => {
     return (
@@ -10,11 +10,13 @@ const AvatarPortfolio = () => {
                 src="/avatarpc.png" 
                 width="300" 
                 height="300" 
-                className="w-full h-full border-4 border-transparent dark:border-coffe" 
+                className="w-full h-full border-4 border-transparent dark:border-coffe" // Cambiar el borde en modo oscuro
                 alt="Particles"
             />
         </MotionTransition>
     );
+
+    
 }
 
 export default AvatarPortfolio;

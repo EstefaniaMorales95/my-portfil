@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { itemsNavbar } from "@/data";
-import MotionTransition from "./transition-components";
+import {MotionTransition }from "../components/transition-components";
 import "../utils/i18n";
 
 const Navbar = () => {
