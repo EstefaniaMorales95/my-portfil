@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
+
 
 const Introduction = () => {
   const { t } = useTranslation();
