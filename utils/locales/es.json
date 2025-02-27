@@ -8,6 +8,7 @@
     "description": "Como programadora full-stack, tengo la capacidad de conectar el diseño de la interfaz con el motor que impulsa la funcionalidad, creando experiencias fluidas y poderosas."
   },
   "portfolio": {
+    
     "github": "Github",
     "liveDemo": "Demostración en vivo"
   },
@@ -97,7 +98,7 @@
   "dataPortfolio": {
     "pokedex": "Pokedex",
     "rickAndMortyApp": "Aplicación Rick and Morty",
-    "weatherApp": "Aplicación del clima",
+    "weatherApp": "Weather Application",
     "usersCrud": "Users Crud"
   },
   "dataTestimonials": {
